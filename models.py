@@ -26,7 +26,7 @@ class LoopUrlTaskV2(BaseModel):
 
 class CollectUrlsTask(BaseModel):
     workType: str
-    # press: str
+    press: str
 
 # 定義接收 data 的資料模型
 class NewsDataModel(BaseModel):
